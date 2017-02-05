@@ -2,7 +2,8 @@ import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
-
+import org.junit.Before;
+import org.junit.After;
 
 public class HelloTest { 
       private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
