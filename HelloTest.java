@@ -23,8 +23,8 @@ public class HelloTest {
 
       @Test
       public void out() {
-	  System.out.print("Hello, Yuri");
-	  assertEquals("Hello, Yuri", outContent.toString());
+	  System.out.print("Hello Yuri.\nMy name is ICE. How are you today, Yuri?");
+	  assertEquals("Hello Yuri.\nMy name is ICE. How are you today, Yuri?", outContent.toString());
       }
       @Test
       public void err() {
